@@ -15,7 +15,7 @@ proxy-providers:
   Airport_01:
     <<: *PProviders
     proxy: "🟢 直连"
-    url: "订阅链接1"
+    url: "http://192.168.31.99:8299/download/sub"
     override:
       additional-prefix: '[机场名称1]'
       skip-cert-verify: true
